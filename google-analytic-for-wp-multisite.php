@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: FameThemes Tracking Code
+Plugin Name: Tracking Codes for WP Multisite
 Plugin URI: http://www.famethemes.com
 Description: Simple plugin for adding tracking code to site head and footer section.
-Author: famethemes
+Author: FameThemes
 Version: 1.0.0
 Author URI: http://www.famethemes.com
 */
