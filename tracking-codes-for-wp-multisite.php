@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Tracking Codes for WP Multisite
-Plugin URI: http://www.famethemes.com
+Plugin URI: https://www.famethemes.com
 Description: Simple plugin for adding tracking codes to all sub-site in network via wp_head or wp_footer hooks.
 Author: FameThemes
 Version: 1.0.0
@@ -44,7 +44,6 @@ if ( ! class_exists( 'FT_Tracking_Code' ) ) {
         function menu_item()
         {
             add_submenu_page('settings.php', 'Tracking Code', 'Tracking Code', 'manage_options', 'ft-tracking-code', array($this, 'init'));
-            // add_menu_page( 'options-general.php', 'Tracking Code', 'Tracking Code', 'manage_options', 'ft-tracking-code', array( $this, 'init' ));
 
         }
 
