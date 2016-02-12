@@ -32,6 +32,9 @@ if ( ! class_exists( 'FT_Tracking_Code' ) ) {
                     if (is_wp_error($result)) {
                         // Process Error
                     }
+                } else {
+                    add_action('wp_head', array($this, 'wp_head'));
+                    add_action('wp_footer', array($this, 'wp_footer'));
                 }
 
             } else {
